@@ -1,6 +1,9 @@
 users = []
 
-user = input('Podaj nazwę użytkownika: ')
+user = {}
+
+user['imie'] = input('Podaj nazwę użytkownika: ')
+user['email'] = input('Podaj email użytkownika: ')
 
 users.append(user)
 
