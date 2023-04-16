@@ -10,4 +10,5 @@ users.append(user)
 print(f'Użytkownik {user} został dodany do bazy danych')
 
 print('Wszyscy użytkownicy: ')
-print(users)
+for u in users:
+    print(f'Użytkownik: {u}')
